@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Vazirmatn:wght@100..900&display=swap');
+
+.georama{
+    font-family: "Georama", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    background-color: rgb(241, 132, 164);
+}
+
+.logo img{
+    width: 30%;
+}
+
+header ul{
+    list-style: none;
+}
+
+.card{
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+footer p{
+    color: white;
+}
+
+.container-about{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: justify;
+    margin: 0 10% 0 10%;
+}
+
+.about-img{
+    border-radius: 100px;
+}
+
+.container-contact{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 10% 0 10%;
+}
